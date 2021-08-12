@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-//import 'Services/student_services.dart';
+import 'Services/student_services.dart';
 import 'Services/teacher_services.dart';
+import 'Services/shape_services.dart';
 
 void main() {
   runApp(MyApp());
 
-   //loadStudent();
-  LoadTeacher();
+  //loadStudent();
+  // LoadTeacher();
+  LoadShape();
 }
 
 class MyApp extends StatelessWidget {
